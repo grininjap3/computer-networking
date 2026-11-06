@@ -1,0 +1,34 @@
+Computer Networks Assignment 2 - Question 3
+Sample Cisco IOS configuration from the assignment.
+
+R1
+---
+enable
+configure terminal
+hostname R1
+interface GigabitEthernet0/0
+ ip address 192.168.10.1 255.255.255.0
+ no shutdown
+exit
+interface Serial0/0/0
+ ip address 10.0.0.1 255.255.255.252
+ clock rate 64000
+ no shutdown
+exit
+ip route 192.168.20.0 255.255.255.0 10.0.0.2
+end
+write memory
+show ip route
+
+R2
+---
+Serial address: 10.0.0.2/30
+LAN interface: 192.168.20.1/24
+Return route:
+ip route 192.168.10.0 255.255.255.0 10.0.0.1
+
+Notes:
+- Configure clock rate only on the DCE end of the serial link.
+- The assignment's floating backup route example for R1 is:
+  ip route 192.168.20.0 255.255.255.0 10.0.0.6 200
+- The backup next hop must exist in the actual Packet Tracer topology.
