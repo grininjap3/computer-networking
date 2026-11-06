@@ -1,0 +1,21 @@
+Computer Networks Assignment 2 - Question 5
+Cisco IOS OSPF reference-bandwidth configuration.
+
+Enter OSPF router configuration mode and set the reference bandwidth
+to 10 Gbps (the command value is in Mbps):
+
+router ospf 1
+ auto-cost reference-bandwidth 10000
+
+Advertise the connected networks using suitable network statements,
+or enable OSPF directly on the interfaces.
+
+Important:
+Configure the same reference bandwidth consistently on every router
+in the OSPF domain.
+
+The assignment's example link costs with this reference bandwidth:
+10 Mbps  = 1000
+100 Mbps = 100
+1 Gbps   = 10
+10 Gbps  = 1
