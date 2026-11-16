@@ -1,29 +1,34 @@
-# Assignment 1 – Computer Networks
+# Computer Networks – Assignment 1
 
-## Student details
-- **Name:** [Enter your full name]
-- **Register number:** [Enter your register number]
+**Assignment:** Make the Data of a Smart Manufacturing Plant Arrive Correctly and On Time  
+**Student:** Ch Venkata Puneeth  
+**Register number:** 1925260234  
+**Course:** CSA0707 – Computer Networks, CSE (AI & ML), SIMATS Engineering  
+**GitHub repository:** https://github.com/grininjap3/computer-networking
+
+## Environment
 - **Operating system:** [Enter OS and version]
-- **Python version:** [Enter Python version, or N/A]
-- **Cisco Packet Tracer / NS-3 version:** [Enter version]
+- **Python version:** [Enter Python version]
+- **Cisco Packet Tracer / NS-3 version:** [Enter version, or N/A]
 
 ## Repository structure
-Each task has its own folder. Add your individual source code, simulation files, device configurations, Wireshark captures, command outputs, and screenshots in the matching subfolders.
+This assignment contains 12 individual tasks. Each task has its own folder with locations for programs, simulations, device configurations, Wireshark captures, outputs and screenshots.
 
-- `Task01/` through `Task05/`
-  - `Code/` – Python/source programs
-  - `PacketTracer/` – `.pkt` simulation files (or NS-3 files)
-  - `Configurations/` – device/router configurations
-  - `Wireshark/` – packet captures (`.pcap` / `.pcapng`)
-  - `Outputs/` – command output and result files
-  - `Screenshots/` – execution/simulation screenshots
+- `Task01/` through `Task12/`
+  - `Code/` – Python/source programs, including every “Complete the Code” solution
+  - `PacketTracer/` – Packet Tracer (`.pkt`) or NS-3 files, where applicable
+  - `Configurations/` – device configurations
+  - `Wireshark/` – packet captures, where applicable
+  - `Outputs/` – actual command/program outputs
+  - `Screenshots/` – execution and simulation evidence
+  - `README.md` – task run steps and result
 
-## How to use
-1. Fill in all student and software-version details above.
-2. Complete every task individually, including every “Complete the Code” program.
-3. Put each file in the appropriate task subfolder.
-4. Follow the run/open instructions in each task's README.
-5. Update each task README with the actual result and commit your work progressively. Make at least one meaningful commit per task.
-6. Add this repository link to the report cover page and submit it to the course faculty.
+## Submission checklist
+1. Complete every task individually, including all “Complete the Code” programs.
+2. Add actual programs, simulation files, configurations, captures, outputs and screenshots to the matching task folder.
+3. Document how to run/open each task and summarize its actual result in its README.
+4. Commit progressively, with at least one meaningful commit per task.
+5. Share this repository with the course faculty (public, or private with faculty added as collaborator).
+6. Put this GitHub link on the report cover page and submit it with the report.
 
-> **Submission reminder:** This is a starter structure. Replace all placeholders and add the actual programs, simulations, outputs, screenshots, and results before submission.
+> Starter structure only: fill in the environment placeholders and add your own tested work and evidence before submission.
