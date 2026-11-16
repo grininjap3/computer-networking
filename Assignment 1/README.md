@@ -40,3 +40,25 @@ This assignment contains 12 individual tasks. Each task has its own folder with 
 - Each task also includes a runnable Python example in `Code/taskNN.py`.
 - Task 10 still requires your own real `tracert`/`traceroute`, `ping`, Wireshark capture and screenshots. The PDF explicitly labels these as your own evidence; sample values are not a substitute.
 - The PDF's output screenshot areas are blank placeholders, so no screenshots or Packet Tracer/Wireshark capture files have been fabricated.
+
+
+## PDF screenshot references
+
+The supplied 24-page PDF contains output screenshot panels on the following pages. A matching SVG reference image is stored in each task's `Screenshots/` folder as `taskNN-pdf-output.svg`:
+
+| Task | PDF page | Repository image |
+|---|---:|---|
+| 1 | 3 | `Task01/Screenshots/task01-pdf-output.svg` |
+| 2 | 4 | `Task02/Screenshots/task02-pdf-output.svg` |
+| 3 | 6 | `Task03/Screenshots/task03-pdf-output.svg` |
+| 4 | 8 | `Task04/Screenshots/task04-pdf-output.svg` |
+| 5 | 10 | `Task05/Screenshots/task05-pdf-output.svg` |
+| 6 | 11 | `Task06/Screenshots/task06-pdf-output.svg` |
+| 7 | 14 | `Task07/Screenshots/task07-pdf-output.svg` |
+| 8 | 16 | `Task08/Screenshots/task08-pdf-output.svg` |
+| 9 | 17 | `Task09/Screenshots/task09-pdf-output.svg` |
+| 10 | 19 | `Task10/Screenshots/task10-pdf-output.svg` |
+| 11 | 21 | `Task11/Screenshots/task11-pdf-output.svg` |
+| 12 | 24 | `Task12/Screenshots/task12-pdf-output.svg` |
+
+**Screenshot note:** these SVGs are recreated visual references based on the PDF's embedded output panels and extracted results; they are not the original raster screenshots or new terminal captures. Keep original PDF screenshots as the source reference. Task 10 still needs your own live terminal and Wireshark evidence.
