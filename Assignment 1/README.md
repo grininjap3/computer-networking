@@ -36,7 +36,8 @@ This assignment contains 12 individual tasks. Each task has its own folder with 
 
 ## PDF content added
 
-- `Task01` through `Task12` now each include a `Details.md` file with the task calculations, explanations, decisions and conclusions transcribed/organized from the supplied Assignment 1 PDF.
+- `Task01` through `Task12` now each include a `Questions.md` file containing the task questions and sub-questions organized from the supplied Assignment 1 PDF.
+- `Task01` through `Task12` also include a `Details.md` file with the task calculations, explanations, decisions and conclusions transcribed/organized from the supplied Assignment 1 PDF.
 - Each task also includes a runnable Python example in `Code/taskNN.py`.
 - Task 10 still requires your own real `tracert`/`traceroute`, `ping`, Wireshark capture and screenshots. The PDF explicitly labels these as your own evidence; sample values are not a substitute.
 - The PDF's output screenshot areas are blank placeholders, so no screenshots or Packet Tracer/Wireshark capture files have been fabricated.
